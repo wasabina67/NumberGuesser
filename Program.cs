@@ -46,6 +46,7 @@ while (!hasWon)
     {
         hasWon = true;
         Console.WriteLine();
+        Console.WriteLine("// ===================================");
         Console.WriteLine("Congratulations! You guessed it!");
         Console.WriteLine($"The number was {targetNumber}.");
         Console.WriteLine($"It took you {attempts} attempt{(attempts == 1 ? "" : "s")}.");
@@ -67,6 +68,7 @@ while (!hasWon)
         {
             Console.WriteLine("You made it! Practice makes perfect!");
         }
+        Console.WriteLine("// ===================================");
     }
     else if (guess < targetNumber)
     {
@@ -80,5 +82,4 @@ while (!hasWon)
     Console.WriteLine();
 }
 
-Console.WriteLine();
 Console.WriteLine("Thanks for playing!");
