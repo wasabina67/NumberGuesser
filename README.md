@@ -1,7 +1,11 @@
 # NumberGuesser
 Number Guesser
 
-## Run
+## Commands
+
+```bash
+dotnet build
+```
 
 ```bash
 dotnet run
